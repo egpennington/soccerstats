@@ -14,7 +14,7 @@ a {
   color: #fff;
   font-size: 1.1rem;
   border: 1px #fff solid;
-  border-radius: 5px;
+  border-radius: 20px;
   padding: 3px 5px;
 }
 a:hover { border-bottom: 1px red solid; }
