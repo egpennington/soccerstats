@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Quick Soccer Stats</title>
+</head>
+<body> 
+   <div class="container">
+     <div class="top">
+       <h1>Shots Taken: </h1>
+       <h2 id="count-el">0</h2>
+       <button class="increment-btn btn" onclick="increment()">INCREMENT</button>
+       <button class="save-btn btn" onclick="save()">SAVE</button>
+       <p id="save-el">Previous entries: </p>       
+     </div>
+     
+     <div class="second">
+       <h1>Goals Scored: </h1>
+       <h2 id="goal-el">0</h2>
+       <button class="increment-btn btn" onclick="score()">INCREMENT</button>
+       <button class="save-btn btn" onclick="total()">SAVE</button>
+       <p id="total-el">Previous entries: </p>       
+     </div>
+     
+     
+     
+     
+   </div>
+   <footer id="footer">Copyright &copy; 2023 Pennington Programming</footer>
+   <script src="js/main.js"></script>
+</body>
+</html>
