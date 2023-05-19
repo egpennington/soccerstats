@@ -30,11 +30,10 @@ p { font-size: 1.5rem; }
 
 button {
     border: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 2rem 3rem;
     color: white;
     font-weight: bold;
-    width: 13rem;
+    width: 100%;
     margin-bottom: 5px;
     border-radius: 5px;
 }
